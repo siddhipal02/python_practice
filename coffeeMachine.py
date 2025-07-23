@@ -25,7 +25,7 @@ def make_drink(choice):
 
 
 def coffee_machine():
-    print("Welcome to the Python Coffee Machine")
+    print("Welcome to the Coffee Machine")
     while True:
         print("Menu: cappuccino | mocha | latte | exit")
         choice = input("What would you like? ")
