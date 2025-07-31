@@ -17,7 +17,7 @@ def is_available(choice):
             return False
     return True
 
-def suggest_alternatives(exclude_choice=None):
+def suggest_alternatives(exclude_choice):
     alternatives = []
     for drink in menu:
         if drink == exclude_choice:
